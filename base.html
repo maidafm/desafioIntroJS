@@ -25,10 +25,17 @@
                 sumar.innerHTML = resultado
                 valorFinal = document.querySelector('.valor-total');
                 precioFinal = precio * resultado
-                valorFinal.innerHTML = precioFinal
-                "
+                valorFinal.innerHTML = precioFinal"
                 >+</button>
-                <button>-</button>
+                <button
+                class="resta" onclick="restar = document.querySelector('.cantidad');
+                 resultado =parseInt(restar.innerHTML) -1
+                 restar.innerHTML = resultado
+                 valorFinal = document.querySelector('.valor-total'); 
+                 precioFinal = precio * resultado
+                 valorFinal.innerHTML = precioFinal"
+
+                >-</button>
               </p>
             </div>
 
